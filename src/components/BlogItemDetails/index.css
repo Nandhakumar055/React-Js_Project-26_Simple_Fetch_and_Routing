@@ -1,0 +1,104 @@
+/* Write your CSS code here */
+
+.blog-item-details-main-container {
+  min-height: 100vh;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-item-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.658) 0px 7px 29px 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .blog-item-details-main-container {
+    padding: 0px;
+  }
+  .blog-item-details-container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .blog-item-details-container {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .blog-item-details-container {
+    margin: 35px 60px;
+  }
+}
+
+.title-text {
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .title-text {
+    font-size: 24px;
+  }
+}
+
+.author-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatar-image {
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .avatar-image {
+    height: 50px;
+  }
+}
+
+.author-name {
+  color: gray;
+}
+@media screen and (min-width: 768px) {
+  .author-name {
+    font-size: 18px;
+  }
+}
+
+.blog-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.blog-content {
+  color: rgb(83, 77, 77);
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-content {
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+
+.loading-item {
+  padding: 50px;
+  padding-bottom: 100px;
+}

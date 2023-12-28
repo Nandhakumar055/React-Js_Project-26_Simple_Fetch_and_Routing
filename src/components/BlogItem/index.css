@@ -1,0 +1,115 @@
+/* Write your CSS code here */
+
+.blog-item-link {
+  text-decoration: none;
+}
+
+.blog-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 17px;
+  max-width: 800px;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: rgba(100, 100, 111, 0.658) 0px 7px 29px 0px;
+}
+@media screen and (min-width: 768px) {
+  .blog-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 20px;
+  }
+}
+@media screen and (min-width: 1045px) {
+  .blog-item-container {
+    margin: 25px;
+  }
+}
+
+.blog-item-image {
+  width: 100%;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .blog-item-image {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .blog-text-items-container {
+    padding-left: 20px;
+    width: 50%;
+  }
+}
+
+.blog-item-topic-text {
+  color: rgb(119, 104, 104);
+}
+@media screen and (min-width: 768px) {
+  .blog-item-topic-text {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .blog-item-topic-text {
+    font-size: 20px;
+  }
+}
+
+.blog-item-title-text {
+  font-size: 16px;
+  color: rgb(106, 30, 168);
+}
+@media screen and (min-width: 768px) {
+  .blog-item-title-text {
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .blog-item-title-text {
+    font-size: 23px;
+  }
+}
+
+.blog-item-author-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.blog-item-avatar-image {
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .blog-item-avatar-image {
+    height: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .blog-item-avatar-image {
+    height: 50px;
+  }
+}
+
+.blog-item-author-name {
+  color: gray;
+}
+@media screen and (min-width: 768px) {
+  .blog-item-author-name {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .blog-item-author-name {
+    font-size: 20px;
+  }
+}
